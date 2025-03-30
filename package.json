@@ -1,0 +1,51 @@
+{
+  "name": "vscode-extension-webview-template",
+  "displayName": "vscode-extension-webview-template",
+  "description": "",
+  "version": "0.0.1",
+  "author": "eunji choi <chej098t@gmail.com>",
+  "engines": {
+    "vscode": "^1.96.4"
+  },
+  "main": "./dist/extension.js",
+  "files": [
+    "dist/*"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "category": "cje debug",
+        "title": "hello",
+        "command": "cje.hello"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "pnpm run build --watch",
+    "lint": "eslint src",
+    "test": "vitest",
+    "vscode:prepublish": "pnpm run build",
+    "publish": "vsce publish --no-dependencies",
+    "package": "vsce package --no-dependencies",
+    "typecheck": "tsc --noEmit",
+    "release": "bumpp && pnpm run publish"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.98.0",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "bumpp": "^10.1.0",
+    "eslint": "^9.23.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  },
+  "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
+}
