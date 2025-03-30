@@ -4,6 +4,10 @@
   "description": "",
   "version": "0.0.1",
   "author": "eunji choi <chej098t@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmswl98/vscode-extension-webview-template"
+  },
   "engines": {
     "vscode": "^1.96.4"
   },
@@ -36,6 +40,8 @@
     "release": "bumpp && pnpm run publish"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.28.1",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@types/vscode": "^1.98.0",
