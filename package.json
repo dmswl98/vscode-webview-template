@@ -11,7 +11,7 @@
   "engines": {
     "vscode": "^1.96.4"
   },
-  "main": "./dist/extension.js",
+  "main": "./dist/index.js",
   "files": [
     "dist/*"
   ],
