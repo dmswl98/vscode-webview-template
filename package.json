@@ -1,12 +1,12 @@
 {
-  "name": "vscode-extension-webview-template",
-  "displayName": "vscode-extension-webview-template",
+  "name": "vscode-webview-template",
+  "displayName": "vscode-webview-template",
   "description": "",
   "version": "0.0.1",
   "author": "eunji choi <chej098t@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dmswl98/vscode-extension-webview-template"
+    "url": "https://github.com/dmswl98/vscode-webview-template"
   },
   "engines": {
     "vscode": "^1.96.4"

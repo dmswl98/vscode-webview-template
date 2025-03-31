@@ -1,1 +1,1 @@
-# vscode-extension-webview-template
+# vscode-webview-template
